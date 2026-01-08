@@ -9,7 +9,7 @@ import json
 df = pd.read_parquet("lesson_embeddings_openai.parquet")
 
 # Init OpenAI client
-key = 'voc-1729574681126677149492966d214ffce5460.25792363'
+key = 'key'
 client = OpenAI(
     base_url = "https://openai.vocareum.com/v1",
     api_key = key
